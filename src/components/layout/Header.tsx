@@ -73,24 +73,20 @@ export const Header: React.FC = () => {
     }
   };
 
-  // Only admins can see and choose Administrator
-  const allowedPersonas: UserPersona[] = isAdmin
-    ? ['Administrator', 'Policy Maker', 'Institution / Education Provider', 'Candidate']
-    : ['Policy Maker', 'Institution / Education Provider', 'Candidate'];
+  const allowedPersonas: UserPersona[] = [
+    'Policy Maker',
+    'Administrator',
+    'Institution / Education Provider',
+    'Candidate'
+  ];
 
-  const currentDisplayPersona: UserPersona = isAdmin && currentRole === 'admin' 
-    ? 'Administrator' 
-    : roleToPersona(currentRole);
+  const currentDisplayPersona: UserPersona = persona;
 
   const handleRoleChange = (selected: UserPersona) => {
     const targetRole = personaToRole(selected);
-    const success = setRole(targetRole);
-    if (success) {
-      setPersona(selected);
-      addToast('info', 'Active Perspective Switched', `Dashboard adjusted for: ${selected}`);
-    } else {
-      addToast('warning', 'Permission Required', 'Administrator role requires elevated credentials.');
-    }
+    setRole(targetRole);
+    setPersona(selected);
+    addToast('info', 'Active Perspective Switched', `Dashboard adjusted for: ${selected}`);
   };
 
   const handleExportSummary = () => {
@@ -245,8 +241,8 @@ export const Header: React.FC = () => {
               )}
             </div>
 
-            {/* Authentication Button / User Profile Menu */}
-            {isAuthenticated && user ? (
+            {/* User Profile Menu (if authenticated) */}
+            {isAuthenticated && user && (
               <div className="relative" ref={userMenuRef}>
                 <button
                   onClick={() => setShowUserMenu(!showUserMenu)}
@@ -312,19 +308,17 @@ export const Header: React.FC = () => {
                         <span>Candidate Profile & Skills</span>
                       </button>
 
-                      {/* Admin Console Link (Admins Only) */}
-                      {isAdmin && (
-                        <button
-                          onClick={() => {
-                            setActiveTab('admin-console');
-                            setShowUserMenu(false);
-                          }}
-                          className="w-full text-left px-2.5 py-2 rounded-xl text-xs font-medium text-indigo-700 dark:text-indigo-300 hover:bg-indigo-50 dark:hover:bg-indigo-950/50 transition flex items-center space-x-2"
-                        >
-                          <ShieldCheck className="w-3.5 h-3.5 text-indigo-500" />
-                          <span>Admin Console & Architecture</span>
-                        </button>
-                      )}
+                      {/* Admin Console Link */}
+                      <button
+                        onClick={() => {
+                          setActiveTab('admin-console');
+                          setShowUserMenu(false);
+                        }}
+                        className="w-full text-left px-2.5 py-2 rounded-xl text-xs font-medium text-indigo-700 dark:text-indigo-300 hover:bg-indigo-50 dark:hover:bg-indigo-950/50 transition flex items-center space-x-2"
+                      >
+                        <ShieldCheck className="w-3.5 h-3.5 text-indigo-500" />
+                        <span>Admin Console & Architecture</span>
+                      </button>
                     </div>
 
                     {/* Sign Out Button */}
@@ -341,14 +335,6 @@ export const Header: React.FC = () => {
                   </div>
                 )}
               </div>
-            ) : (
-              <button
-                onClick={() => setActiveTab('sign-in')}
-                className="flex items-center space-x-1.5 px-3 py-1.5 text-xs font-bold text-white bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-500 hover:to-indigo-500 rounded-lg shadow-sm shadow-brand-500/20 transition active:scale-[0.98]"
-              >
-                <LogIn className="w-3.5 h-3.5" />
-                <span>Sign In</span>
-              </button>
             )}
           </div>
         </div>

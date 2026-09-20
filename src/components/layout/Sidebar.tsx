@@ -130,47 +130,45 @@ export const Sidebar: React.FC = () => {
           })}
         </div>
 
-        {/* Admin-Only Area */}
-        {isAdmin && (
-          <div className="pt-3 pb-1 border-t border-slate-100 dark:border-slate-800 mt-2">
-            <div className="flex items-center justify-between px-3 pt-2 pb-1.5">
-              <p className="text-[10px] font-bold uppercase tracking-wider text-indigo-500 dark:text-indigo-400">
-                Administration
-              </p>
-              <span className="text-[9px] font-bold px-1.5 py-0.2 rounded bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300">
-                Admin Role
-              </span>
-            </div>
-
-            {adminSections.map((item) => {
-              const isActive = activeTab === item.id;
-              return (
-                <button
-                  key={item.id}
-                  onClick={() => setActiveTab(item.id)}
-                  className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold transition-all group ${
-                    isActive
-                      ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/25'
-                      : 'text-slate-600 dark:text-slate-400 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 hover:text-indigo-600 dark:hover:text-indigo-300'
-                  }`}
-                >
-                  <div className="flex items-center space-x-2.5 truncate">
-                    <span className={isActive ? 'text-white' : 'text-slate-400 dark:text-slate-500'}>
-                      {item.icon}
-                    </span>
-                    <span className="truncate">{item.label}</span>
-                  </div>
-                  {item.badge && !isActive && (
-                    <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-300">
-                      {item.badge}
-                    </span>
-                  )}
-                  {isActive && <ChevronRight className="w-3.5 h-3.5 text-white/80" />}
-                </button>
-              );
-            })}
+        {/* Admin & System Architecture */}
+        <div className="pt-3 pb-1 border-t border-slate-100 dark:border-slate-800 mt-2">
+          <div className="flex items-center justify-between px-3 pt-2 pb-1.5">
+            <p className="text-[10px] font-bold uppercase tracking-wider text-indigo-500 dark:text-indigo-400">
+              Administration
+            </p>
+            <span className="text-[9px] font-bold px-1.5 py-0.2 rounded bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300">
+              System
+            </span>
           </div>
-        )}
+
+          {adminSections.map((item) => {
+            const isActive = activeTab === item.id;
+            return (
+              <button
+                key={item.id}
+                onClick={() => setActiveTab(item.id)}
+                className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold transition-all group ${
+                  isActive
+                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/25'
+                    : 'text-slate-600 dark:text-slate-400 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 hover:text-indigo-600 dark:hover:text-indigo-300'
+                }`}
+              >
+                <div className="flex items-center space-x-2.5 truncate">
+                  <span className={isActive ? 'text-white' : 'text-slate-400 dark:text-slate-500'}>
+                    {item.icon}
+                  </span>
+                  <span className="truncate">{item.label}</span>
+                </div>
+                {item.badge && !isActive && (
+                  <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-300">
+                    {item.badge}
+                  </span>
+                )}
+                {isActive && <ChevronRight className="w-3.5 h-3.5 text-white/80" />}
+              </button>
+            );
+          })}
+        </div>
       </div>
 
       {/* Footer Status Banner: Clean SkillSync Message */}

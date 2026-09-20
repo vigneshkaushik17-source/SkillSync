@@ -22,27 +22,15 @@ import { SettingsView } from './views/SettingsView';
 import { SignInView } from './views/SignInView';
 
 const MainContent: React.FC = () => {
-  const { activeTab, setActiveTab, candidateProfile, updateCandidateProfile, addToast } = useApp();
-  const { user, isAuthenticated, isAdmin } = useAuth();
+  const { activeTab, setActiveTab, candidateProfile, updateCandidateProfile } = useApp();
+  const { user, isAuthenticated } = useAuth();
 
-  // Route Protection: Prevent non-admin users from accessing admin routes
+  // Redirect sign-in to Market Overview
   useEffect(() => {
-    const adminRoutes = ['admin-console', 'data-sources', 'settings'];
-    if (adminRoutes.includes(activeTab) && !isAdmin) {
+    if (activeTab === 'sign-in') {
       setActiveTab('market-overview');
-      addToast('warning', 'Access Restricted', 'Administrator authorization required to access system and data architecture console.');
     }
-  }, [activeTab, isAdmin, setActiveTab, addToast]);
-
-  // Redirect to Home "/" (market-overview) after successful sign in if currently on sign-in page
-  useEffect(() => {
-    if (isAuthenticated && activeTab === 'sign-in') {
-      setActiveTab('market-overview');
-      if (user) {
-        addToast('success', `Welcome, ${user.full_name}!`, 'Authenticated with Google via Supabase.');
-      }
-    }
-  }, [isAuthenticated, activeTab, setActiveTab, user, addToast]);
+  }, [activeTab, setActiveTab]);
 
   // Sync Google user credentials with Candidate profile when logged in
   useEffect(() => {
@@ -81,13 +69,12 @@ const MainContent: React.FC = () => {
       case 'candidate-profile':
         return <CandidateProfileView />;
       case 'admin-console':
-        return isAdmin ? <AdminConsoleView /> : <MarketOverviewView />;
+        return <AdminConsoleView />;
       case 'data-sources':
-        return isAdmin ? <DataSourcesView /> : <MarketOverviewView />;
+        return <DataSourcesView />;
       case 'settings':
-        return isAdmin ? <SettingsView /> : <MarketOverviewView />;
+        return <SettingsView />;
       case 'sign-in':
-        return <SignInView />;
       default:
         return <MarketOverviewView />;
     }
