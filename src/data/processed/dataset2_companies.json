@@ -1,0 +1,736 @@
+[
+  {
+    "id": "1009",
+    "name": "IBM",
+    "city": "Armonk, New York",
+    "state": "NY",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 311223,
+    "followerCount": 16314846,
+    "specialities": [
+      "Cloud",
+      "Mobile",
+      "Cognitive",
+      "Security"
+    ],
+    "industries": [
+      "IT Services and IT Consulting"
+    ]
+  },
+  {
+    "id": "1016",
+    "name": "GE HealthCare",
+    "city": "Chicago",
+    "state": "0",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 57001,
+    "followerCount": 2196350,
+    "specialities": [
+      "Healthcare",
+      "Biotechnology"
+    ],
+    "industries": [
+      "Hospitals and Health Care"
+    ]
+  },
+  {
+    "id": "1025",
+    "name": "Hewlett Packard Enterprise",
+    "city": "Houston",
+    "state": "Texas",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 79559,
+    "followerCount": 3588329,
+    "specialities": [
+      "Enterprise Technology",
+      "Consulting"
+    ],
+    "industries": [
+      "IT Services and IT Consulting"
+    ]
+  },
+  {
+    "id": "1028",
+    "name": "Oracle",
+    "city": "Austin",
+    "state": "Texas",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 191374,
+    "followerCount": 9497909,
+    "specialities": [
+      "enterprise",
+      "software",
+      "applications",
+      "database"
+    ],
+    "industries": [
+      "IT Services and IT Consulting"
+    ]
+  },
+  {
+    "id": "1033",
+    "name": "Accenture",
+    "city": "Dublin 2",
+    "state": "0",
+    "country": "IE",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 565191,
+    "followerCount": 11890321,
+    "specialities": [
+      "Management Consulting",
+      "Systems Integration and Technology",
+      "Business Process Outsourcing",
+      "Application and Infrastructure Outsourcing"
+    ],
+    "industries": [
+      "Business Consulting and Services"
+    ]
+  },
+  {
+    "id": "1035",
+    "name": "Microsoft",
+    "city": "Redmond",
+    "state": "Washington",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 227317,
+    "followerCount": 22253257,
+    "specialities": [
+      "Business Software",
+      "Developer Tools",
+      "Home & Educational Software",
+      "Tablets"
+    ],
+    "industries": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "1038",
+    "name": "Deloitte",
+    "city": "Worldwide",
+    "state": "0",
+    "country": "OO",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 435078,
+    "followerCount": 15221049,
+    "specialities": [
+      "Audit",
+      "Consulting",
+      "Financial Advisory",
+      "Risk Management"
+    ],
+    "industries": [
+      "Business Consulting and Services"
+    ]
+  },
+  {
+    "id": "1043",
+    "name": "Siemens",
+    "city": "Munich",
+    "state": "0",
+    "country": "DE",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 217641,
+    "followerCount": 6814908,
+    "specialities": [
+      "Electrification",
+      "Automation",
+      "Digitalization",
+      "Innovation"
+    ],
+    "industries": [
+      "Automation Machinery Manufacturing"
+    ]
+  },
+  {
+    "id": "1044",
+    "name": "PwC",
+    "city": "0",
+    "state": "0",
+    "country": "GB",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 291883,
+    "followerCount": 6085704,
+    "specialities": [
+      "Assurance",
+      "Tax",
+      "Advisory"
+    ],
+    "industries": [
+      "IT Services and IT Consulting"
+    ]
+  },
+  {
+    "id": "1052",
+    "name": "AT&T",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 174692,
+    "followerCount": 1485885,
+    "specialities": [
+      "Wireless Services",
+      "U-Verse",
+      "Enterprise Applications & Managed Hosting Solutions"
+    ],
+    "industries": [
+      "Telecommunications"
+    ]
+  },
+  {
+    "id": "1053",
+    "name": "Intel Corporation",
+    "city": "Santa Clara",
+    "state": "California",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 122352,
+    "followerCount": 3549356,
+    "specialities": [
+      "semiconductor design and manufacturing",
+      "artificial intelligence",
+      "autonomous driving",
+      "non-volatile memory solutions"
+    ],
+    "industries": [
+      "Semiconductor Manufacturing"
+    ]
+  },
+  {
+    "id": "1060",
+    "name": "Ericsson",
+    "city": "Kista",
+    "state": "Stockholm",
+    "country": "SE",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 110082,
+    "followerCount": 1986532,
+    "specialities": [
+      "5G",
+      "Internet of Things",
+      "Mobile broadband",
+      "Communication services"
+    ],
+    "industries": [
+      "Telecommunications"
+    ]
+  },
+  {
+    "id": "1063",
+    "name": "Cisco",
+    "city": "San Jose",
+    "state": "CA",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 99409,
+    "followerCount": 6350964,
+    "specialities": [
+      "Networking",
+      "Wireless",
+      "Security",
+      "Unified Communication"
+    ],
+    "industries": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "1066",
+    "name": "Motorola Mobility (a Lenovo Company)",
+    "city": "Chicago",
+    "state": "Illinois",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 23882,
+    "followerCount": 451724,
+    "specialities": [
+      "Enterprise Technology",
+      "Consulting"
+    ],
+    "industries": [
+      "Computers and Electronics Manufacturing"
+    ]
+  },
+  {
+    "id": "1068",
+    "name": "JPMorgan Chase & Co.",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 295191,
+    "followerCount": 4956942,
+    "specialities": [
+      "Consumer & Community Banking",
+      "Corporate and Investment Bank",
+      "Asset Management",
+      "Private Banking"
+    ],
+    "industries": [
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "1070",
+    "name": "Nokia",
+    "city": "Espoo",
+    "state": "Southern Finland",
+    "country": "FI",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 85836,
+    "followerCount": 1586666,
+    "specialities": [
+      "Telecommunications",
+      "Software and Services"
+    ],
+    "industries": [
+      "Telecommunications"
+    ]
+  },
+  {
+    "id": "1073",
+    "name": "EY",
+    "city": "London",
+    "state": "0",
+    "country": "GB",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 351055,
+    "followerCount": 8768122,
+    "specialities": [
+      "Advisory",
+      "Assurance",
+      "Tax",
+      "Transactions"
+    ],
+    "industries": [
+      "IT Services and IT Consulting"
+    ]
+  },
+  {
+    "id": "1079",
+    "name": "KPMG US",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 52340,
+    "followerCount": 1424470,
+    "specialities": [
+      "Audit",
+      "Tax",
+      "Advisory"
+    ],
+    "industries": [
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "1088",
+    "name": "NXP Semiconductors",
+    "city": "Eindhoven",
+    "state": "Noord-Brabant",
+    "country": "NL",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 21692,
+    "followerCount": 682896,
+    "specialities": [
+      "High Performance Mixed Signal",
+      "Identification",
+      "Automotive",
+      "Digital Networking"
+    ],
+    "industries": [
+      "Semiconductor Manufacturing"
+    ]
+  },
+  {
+    "id": "1090",
+    "name": "Philips",
+    "city": "Amsterdam",
+    "state": "Noord-Holland",
+    "country": "NL",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 69239,
+    "followerCount": 2390290,
+    "specialities": [
+      "Healthcare",
+      "Medical Devices",
+      "Health systems",
+      "Cardiology"
+    ],
+    "industries": [
+      "Hospitals and Health Care"
+    ]
+  },
+  {
+    "id": "1103",
+    "name": "Verizon",
+    "city": "Basking Ridge",
+    "state": "NJ",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 92499,
+    "followerCount": 1297137,
+    "specialities": [
+      "Telecommunications Global Leader",
+      "Information Technology Global Provider",
+      "Entertainment Services",
+      "Global Security Solutions Provider"
+    ],
+    "industries": [
+      "IT Services and IT Consulting"
+    ]
+  },
+  {
+    "id": "1115",
+    "name": "SAP",
+    "city": "Walldorf",
+    "state": "BW",
+    "country": "DE",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 112899,
+    "followerCount": 3532091,
+    "specialities": [
+      "ERP",
+      "Financials",
+      "Business Intelligence",
+      "Procurement"
+    ],
+    "industries": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "1116",
+    "name": "Procter & Gamble",
+    "city": "Cincinnati",
+    "state": "Ohio",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 86021,
+    "followerCount": 7793701,
+    "specialities": [
+      "Consumer Goods",
+      "Marketing",
+      "Advertising"
+    ],
+    "industries": [
+      "Manufacturing"
+    ]
+  },
+  {
+    "id": "1123",
+    "name": "Bank of America",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 206135,
+    "followerCount": 2440471,
+    "specialities": [
+      "Financial Services"
+    ],
+    "industries": [
+      "Banking"
+    ]
+  },
+  {
+    "id": "1136",
+    "name": "Elite Technology",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "sizeCategory": "Large (501-5000)",
+    "employeeCount": 768,
+    "followerCount": 25771,
+    "specialities": [
+      "software",
+      "legal",
+      "practice management",
+      "financial management"
+    ],
+    "industries": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "1182",
+    "name": "BT Group",
+    "city": "London",
+    "state": "0",
+    "country": "GB",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 80234,
+    "followerCount": 692579,
+    "specialities": [
+      "Superfast broadband",
+      "Fixed-line voice",
+      "Mobile",
+      "Sports broadcasting"
+    ],
+    "industries": [
+      "Telecommunications"
+    ]
+  },
+  {
+    "id": "1185",
+    "name": "Pfizer",
+    "city": "New York",
+    "state": "New York",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 99936,
+    "followerCount": 5794868,
+    "specialities": [
+      "To apply science and our global resources to improve health and well-being at every stage of life. We strive to provide access to safe",
+      "effective and affordable medicines and health care services to the people who need them."
+    ],
+    "industries": [
+      "Pharmaceutical Manufacturing"
+    ]
+  },
+  {
+    "id": "1207",
+    "name": "Johnson & Johnson",
+    "city": "New Brunswick",
+    "state": "NJ",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 103102,
+    "followerCount": 8913602,
+    "specialities": [
+      "Health Care",
+      "Medical Devices & Diagnostics",
+      "Pharmaceuticals"
+    ],
+    "industries": [
+      "Hospitals and Health Care"
+    ]
+  },
+  {
+    "id": "1214",
+    "name": "UBS",
+    "city": "Zurich",
+    "state": "0",
+    "country": "CH",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 79769,
+    "followerCount": 1520100,
+    "specialities": [
+      "Financial Services",
+      "Investment Banking",
+      "Wealth Management",
+      "Asset Management"
+    ],
+    "industries": [
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "1224",
+    "name": "US Army Corps of Engineers",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 25875,
+    "followerCount": 200785,
+    "specialities": [
+      "Civil Works Projects",
+      "Environmental Services",
+      "Construction",
+      "Recreation Opportunities"
+    ],
+    "industries": [
+      "Armed Forces"
+    ]
+  },
+  {
+    "id": "1235",
+    "name": "Wells Fargo",
+    "city": "San Francisco",
+    "state": "California",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 194312,
+    "followerCount": 2216021,
+    "specialities": [
+      "Business Banking",
+      "Wholesale banking",
+      "Mortgage",
+      "Consumer Finance"
+    ],
+    "industries": [
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "1248",
+    "name": "Unilever",
+    "city": "Blackfriars",
+    "state": "London",
+    "country": "GB",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 117423,
+    "followerCount": 19137562,
+    "specialities": [
+      "Consumer Goods",
+      "Food",
+      "Home Care",
+      "Personal Care"
+    ],
+    "industries": [
+      "Manufacturing"
+    ]
+  },
+  {
+    "id": "1252",
+    "name": "Sony",
+    "city": "Tokyo",
+    "state": "0",
+    "country": "JP",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 20793,
+    "followerCount": 1158049,
+    "specialities": [
+      "Sony Group is primarily focused on the Electronics (such as Audio Video/IT products & components)",
+      "Game (such as PlayStation)",
+      "Entertainment (such as motion pictures and music)",
+      "and Financial Services (such as insurance and banking) sectors."
+    ],
+    "industries": [
+      "Entertainment Providers"
+    ]
+  },
+  {
+    "id": "1253",
+    "name": "Sony Electronics",
+    "city": "San Diego - US | Tokyo - JP",
+    "state": "0",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 8741,
+    "followerCount": 390457,
+    "specialities": [
+      "Consumer Electronics",
+      "Consumer Software",
+      "Business & IT Solutions",
+      "Sales & Marketing"
+    ],
+    "industries": [
+      "Computers and Electronics Manufacturing"
+    ]
+  },
+  {
+    "id": "1256",
+    "name": "Sony Pictures Entertainment",
+    "city": "Culver City",
+    "state": "CA",
+    "country": "US",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 9380,
+    "followerCount": 1485670,
+    "specialities": [
+      "Enterprise Technology",
+      "Consulting"
+    ],
+    "industries": [
+      "Entertainment Providers"
+    ]
+  },
+  {
+    "id": "1259",
+    "name": "Atos",
+    "city": "95877 Bezons",
+    "state": "0",
+    "country": "FR",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 85377,
+    "followerCount": 2054384,
+    "specialities": [
+      "Digital Workplace",
+      "Employee Experience",
+      "Technology Consultancy",
+      "Cloud"
+    ],
+    "industries": [
+      "IT Services and IT Consulting"
+    ]
+  },
+  {
+    "id": "1262",
+    "name": "Deutsche Bank",
+    "city": "Frankfurt am Main",
+    "state": "Hessen",
+    "country": "DE",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 71226,
+    "followerCount": 2373512,
+    "specialities": [
+      "Investment Banking",
+      "Asset Management",
+      "Retail Banking",
+      "Private Wealth Management"
+    ],
+    "industries": [
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "1264",
+    "name": "DWS Group",
+    "city": "Frankfurt am Main",
+    "state": "Hessen",
+    "country": "DE",
+    "sizeCategory": "Large (501-5000)",
+    "employeeCount": 3699,
+    "followerCount": 142532,
+    "specialities": [
+      "Mutual Funds",
+      "Investments",
+      "Asset Management"
+    ],
+    "industries": [
+      "Financial Services"
+    ]
+  },
+  {
+    "id": "1269",
+    "name": "Chubb",
+    "city": "0",
+    "state": "0",
+    "country": "CH",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 35517,
+    "followerCount": 819834,
+    "specialities": [
+      "property insurance",
+      "casualty insurance"
+    ],
+    "industries": [
+      "Insurance"
+    ]
+  },
+  {
+    "id": "1271",
+    "name": "Shell",
+    "city": "London",
+    "state": "England",
+    "country": "GB",
+    "sizeCategory": "Enterprise (5000+)",
+    "employeeCount": 135175,
+    "followerCount": 6452159,
+    "specialities": [
+      "Chemicals"
+    ],
+    "industries": [
+      "Oil and Gas"
+    ]
+  }
+]

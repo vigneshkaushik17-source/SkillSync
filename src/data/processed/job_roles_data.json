@@ -1,0 +1,557 @@
+[
+  {
+    "id": "role-1",
+    "title": "Data Analyst & BI Specialist",
+    "sector": "IT & Tech",
+    "openings": 3153,
+    "growthRate": 41.4,
+    "matchScore": 83,
+    "avgSalary": "INR 3.0L - INR 18.0L / yr",
+    "experienceLevel": "Entry",
+    "locations": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "validatedByIndustry": true,
+    "activeHiringCompanies": [
+      "Accenture",
+      "IDESLABS PRIVATE LIMITED",
+      "EY",
+      "JPMorgan Chase Bank",
+      "Vision Beyond Resources India Private Limited"
+    ],
+    "requiredSkills": [
+      {
+        "skillName": "Power BI & Dashboard Analytics",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Business Intelligence & Data Analytics",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Analytics",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Python & Data Engineering",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "SQL & Relational Databases",
+        "importance": "Nice to have",
+        "proficiency": "Beginner",
+        "status": "Missing"
+      }
+    ]
+  },
+  {
+    "id": "role-2",
+    "title": "Cloud & DevOps Infrastructure Engineer",
+    "sector": "IT & Tech",
+    "openings": 3755,
+    "growthRate": 24.1,
+    "matchScore": 82,
+    "avgSalary": "INR 8.0L - INR 30.0L / yr",
+    "experienceLevel": "Mid",
+    "locations": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "validatedByIndustry": true,
+    "activeHiringCompanies": [
+      "Accenture",
+      "IDESLABS PRIVATE LIMITED",
+      "IBM",
+      "Krazy Mantra HR Solutions Pvt. Ltd",
+      "Purview India Consulting And  Services  Llp"
+    ],
+    "requiredSkills": [
+      {
+        "skillName": "AWS Cloud Infrastructure",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Python & Data Engineering",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "DevOps & Cloud Automation",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Kubernetes Orchestration",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Java Enterprise Architecture",
+        "importance": "Nice to have",
+        "proficiency": "Beginner",
+        "status": "Missing"
+      }
+    ]
+  },
+  {
+    "id": "role-3",
+    "title": "EV Powertrain & Battery Diagnostic Technician",
+    "sector": "Manufacturing & EV",
+    "openings": 1375,
+    "growthRate": 45.6,
+    "matchScore": 85,
+    "avgSalary": "INR 2.5L - INR 10.2L / yr",
+    "experienceLevel": "Entry",
+    "locations": [
+      "Bengaluru Urban",
+      "Pune",
+      "Hyderabad"
+    ],
+    "validatedByIndustry": true,
+    "activeHiringCompanies": [
+      "HR Innovation Group",
+      "Accenture",
+      "HARMAN",
+      "IDESLABS PRIVATE LIMITED",
+      "Cigna Medical Group"
+    ],
+    "requiredSkills": [
+      {
+        "skillName": "Automotive",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Event Management",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "B2B Sales & Key Account Management",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Project Management & Agile Delivery",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Events",
+        "importance": "Nice to have",
+        "proficiency": "Beginner",
+        "status": "Missing"
+      }
+    ]
+  },
+  {
+    "id": "role-4",
+    "title": "AI/ML Applied Engineer",
+    "sector": "IT & Tech",
+    "openings": 3600,
+    "growthRate": 17.4,
+    "matchScore": 89,
+    "avgSalary": "INR 3.0L - INR 25.0L / yr",
+    "experienceLevel": "Mid",
+    "locations": [
+      "Bengaluru Urban",
+      "Mumbai MMR",
+      "Hyderabad",
+      "Delhi NCR"
+    ],
+    "validatedByIndustry": true,
+    "activeHiringCompanies": [
+      "Accenture",
+      "Purview India Consulting And  Services  Llp",
+      "Gratitude India Manpower Consultants Pvt. Ltd.",
+      "Dataannotation",
+      "JPMorgan Chase Bank"
+    ],
+    "requiredSkills": [
+      {
+        "skillName": "Python & Data Engineering",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Machine Learning & AI Modeling",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Artificial Intelligence",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Natural Language Processing",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Generative AI & LLMs",
+        "importance": "Nice to have",
+        "proficiency": "Beginner",
+        "status": "Missing"
+      }
+    ]
+  },
+  {
+    "id": "role-5",
+    "title": "Smart AgriTech Operations Specialist",
+    "sector": "Agriculture & AgriTech",
+    "openings": 236,
+    "growthRate": 19.3,
+    "matchScore": 76,
+    "avgSalary": "INR 3.5L - INR 15.0L / yr",
+    "experienceLevel": "Entry",
+    "locations": [
+      "Bengaluru Urban",
+      "Mumbai MMR",
+      "Hyderabad"
+    ],
+    "validatedByIndustry": true,
+    "activeHiringCompanies": [
+      "Kotak Mahindra Bank",
+      "PRO Hr Complete Solutions",
+      "Axis Bank",
+      "Catholic Syrian Bank (CSB Bank)",
+      "HR Innovation Group"
+    ],
+    "requiredSkills": [
+      {
+        "skillName": "B2B Sales & Key Account Management",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Management",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "AgriTech & Crop Analytics",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Loans",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Insurance",
+        "importance": "Nice to have",
+        "proficiency": "Beginner",
+        "status": "Missing"
+      }
+    ]
+  },
+  {
+    "id": "role-6",
+    "title": "Digital Health & Biomedical Equipment Technician",
+    "sector": "Healthcare",
+    "openings": 4878,
+    "growthRate": 33.2,
+    "matchScore": 79,
+    "avgSalary": "INR 2.0L - INR 7.5L / yr",
+    "experienceLevel": "Entry",
+    "locations": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Mumbai MMR"
+    ],
+    "validatedByIndustry": true,
+    "activeHiringCompanies": [
+      "Naukri Hospitality Jobs",
+      "Gratitude India Manpower Consultants Pvt. Ltd.",
+      "R1 RCM",
+      "Access Healthcare",
+      "Accenture"
+    ],
+    "requiredSkills": [
+      {
+        "skillName": "Clinical Data & Hospital Workflow Systems",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Hospitality",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Us Healthcare",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "B2B Sales & Key Account Management",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Medical",
+        "importance": "Nice to have",
+        "proficiency": "Beginner",
+        "status": "Missing"
+      }
+    ]
+  },
+  {
+    "id": "role-7",
+    "title": "Full Stack Java Application Developer",
+    "sector": "IT & Tech",
+    "openings": 10092,
+    "growthRate": 20.2,
+    "matchScore": 89,
+    "avgSalary": "INR 6.0L - INR 25.0L / yr",
+    "experienceLevel": "Mid",
+    "locations": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "validatedByIndustry": true,
+    "activeHiringCompanies": [
+      "Accenture",
+      "Infosys",
+      "IDESLABS PRIVATE LIMITED",
+      "PRADEEPIT CONSULTING SERVICES PVT LTD",
+      "Krazy Mantra HR Solutions Pvt. Ltd"
+    ],
+    "requiredSkills": [
+      {
+        "skillName": "Java Enterprise Architecture",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "CSS3 & Modern Responsive Layouts",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "JavaScript & Web Fundamentals",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Spring Boot & Java Frameworks",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Python & Data Engineering",
+        "importance": "Nice to have",
+        "proficiency": "Beginner",
+        "status": "Missing"
+      }
+    ]
+  },
+  {
+    "id": "role-8",
+    "title": "BFSI Risk & Fraud Prevention Analyst",
+    "sector": "BFSI",
+    "openings": 9970,
+    "growthRate": 33.2,
+    "matchScore": 79,
+    "avgSalary": "INR 2.0L - INR 10.0L / yr",
+    "experienceLevel": "Mid",
+    "locations": [
+      "Bengaluru Urban",
+      "Mumbai MMR",
+      "Delhi NCR"
+    ],
+    "validatedByIndustry": true,
+    "activeHiringCompanies": [
+      "Kotak Mahindra Bank",
+      "Accenture",
+      "Axis Bank",
+      "Bajaj Finance",
+      "Wipro"
+    ],
+    "requiredSkills": [
+      {
+        "skillName": "Compliance",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Risk Management",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "B2B Sales & Key Account Management",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Customer Service",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Retail & Corporate Banking Operations",
+        "importance": "Nice to have",
+        "proficiency": "Beginner",
+        "status": "Missing"
+      }
+    ]
+  },
+  {
+    "id": "role-9",
+    "title": "Supply Chain & Cold Chain Logistics Coordinator",
+    "sector": "Logistics & Supply Chain",
+    "openings": 4288,
+    "growthRate": 29.6,
+    "matchScore": 75,
+    "avgSalary": "INR 2.4L - INR 9.0L / yr",
+    "experienceLevel": "Entry",
+    "locations": [
+      "Bengaluru Urban",
+      "Mumbai MMR",
+      "Pune"
+    ],
+    "validatedByIndustry": true,
+    "activeHiringCompanies": [
+      "Accenture",
+      "IDESLABS PRIVATE LIMITED",
+      "Naukri Hospitality Jobs",
+      "Vision Beyond Resources India Private Limited",
+      "Gratitude India Manpower Consultants Pvt. Ltd."
+    ],
+    "requiredSkills": [
+      {
+        "skillName": "Procurement",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "Supply Chain Analytics & Demand Planning",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "SAP ERP & Business Modules",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Logistics & Fleet Optimization",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Inventory Management",
+        "importance": "Nice to have",
+        "proficiency": "Beginner",
+        "status": "Missing"
+      }
+    ]
+  },
+  {
+    "id": "role-10",
+    "title": "Modern Frontend & UI/UX Engineer",
+    "sector": "IT & Tech",
+    "openings": 2200,
+    "growthRate": 46.4,
+    "matchScore": 91,
+    "avgSalary": "INR 4.0L - INR 22.5L / yr",
+    "experienceLevel": "Entry",
+    "locations": [
+      "Bengaluru Urban",
+      "Pune",
+      "Hyderabad",
+      "Delhi NCR"
+    ],
+    "validatedByIndustry": true,
+    "activeHiringCompanies": [
+      "Accenture",
+      "Purview India Consulting And  Services  Llp",
+      "PRADEEPIT CONSULTING SERVICES PVT LTD",
+      "Infosys",
+      "IDESLABS PRIVATE LIMITED"
+    ],
+    "requiredSkills": [
+      {
+        "skillName": "React.js & Modern Frontend",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "JavaScript & Web Fundamentals",
+        "importance": "Essential",
+        "proficiency": "Advanced",
+        "status": "Matched"
+      },
+      {
+        "skillName": "CSS3 & Modern Responsive Layouts",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Java Enterprise Architecture",
+        "importance": "Important",
+        "proficiency": "Intermediate",
+        "status": "Partial"
+      },
+      {
+        "skillName": "Spring Boot & Java Frameworks",
+        "importance": "Nice to have",
+        "proficiency": "Beginner",
+        "status": "Missing"
+      }
+    ]
+  }
+]

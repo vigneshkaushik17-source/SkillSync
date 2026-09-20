@@ -1,0 +1,84 @@
+{
+  "datasetName": "Indian Job Market Dataset 2025",
+  "totalJobOpenings": 97929,
+  "disclosedSalariesCount": 33217,
+  "meanSalaryINR": 757354.53,
+  "medianSalaryINR": 425000.0,
+  "totalUniqueCompanies": 18668,
+  "totalLocationsTracked": 11,
+  "totalCuratedSkills": 55,
+  "sectorBreakdown": [
+    {
+      "sector": "IT & Tech",
+      "jobsCount": 64570,
+      "demand": 95,
+      "talent": 80,
+      "gap": 15
+    },
+    {
+      "sector": "BFSI",
+      "jobsCount": 13711,
+      "demand": 71,
+      "talent": 53,
+      "gap": 18
+    },
+    {
+      "sector": "Manufacturing & EV",
+      "jobsCount": 7558,
+      "demand": 68,
+      "talent": 42,
+      "gap": 26
+    },
+    {
+      "sector": "Healthcare",
+      "jobsCount": 5529,
+      "demand": 67,
+      "talent": 49,
+      "gap": 18
+    },
+    {
+      "sector": "Logistics & Supply Chain",
+      "jobsCount": 3534,
+      "demand": 66,
+      "talent": 47,
+      "gap": 19
+    },
+    {
+      "sector": "Retail & E-commerce",
+      "jobsCount": 1680,
+      "demand": 65,
+      "talent": 40,
+      "gap": 25
+    },
+    {
+      "sector": "Tourism & Hospitality",
+      "jobsCount": 1210,
+      "demand": 65,
+      "talent": 40,
+      "gap": 25
+    },
+    {
+      "sector": "Agriculture & AgriTech",
+      "jobsCount": 137,
+      "demand": 65,
+      "talent": 40,
+      "gap": 25
+    }
+  ],
+  "locationBreakdown": {
+    "Bengaluru Urban": 26019,
+    "Other": 15638,
+    "Delhi NCR": 11323,
+    "Hyderabad": 10274,
+    "Pune": 9731,
+    "Mumbai MMR": 9599,
+    "Chennai": 6433,
+    "Ahmedabad": 2598,
+    "Remote": 1961,
+    "Kolkata": 1486,
+    "Jaipur": 1088,
+    "Kochi": 938,
+    "Coimbatore": 841
+  },
+  "lastProcessedAt": "2026-09-18T12:25:00Z"
+}

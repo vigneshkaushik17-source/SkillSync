@@ -1,0 +1,208 @@
+{
+  "datasetId": "dataset_2_linkedin",
+  "datasetName": "Global Enterprise & LinkedIn Postings Dataset",
+  "totalJobOpenings": 123849,
+  "totalUniqueCompanies": 24473,
+  "disclosedSalariesCount": 35353,
+  "meanSalaryUSD": 95715.24,
+  "medianSalaryUSD": 82388.8,
+  "topLocations": [
+    {
+      "location": "United States",
+      "postings": 8125
+    },
+    {
+      "location": "New York",
+      "postings": 3404
+    },
+    {
+      "location": "Chicago",
+      "postings": 1836
+    },
+    {
+      "location": "Houston",
+      "postings": 1776
+    },
+    {
+      "location": "Dallas",
+      "postings": 1394
+    },
+    {
+      "location": "Atlanta",
+      "postings": 1369
+    },
+    {
+      "location": "Austin",
+      "postings": 1325
+    },
+    {
+      "location": "Boston",
+      "postings": 1202
+    },
+    {
+      "location": "Washington",
+      "postings": 1118
+    },
+    {
+      "location": "Los Angeles",
+      "postings": 1100
+    },
+    {
+      "location": "Charlotte",
+      "postings": 1086
+    },
+    {
+      "location": "Phoenix",
+      "postings": 1062
+    }
+  ],
+  "workTypeDistribution": [
+    {
+      "type": "Full-time",
+      "count": 98814,
+      "percentage": 79.8
+    },
+    {
+      "type": "Contract",
+      "count": 12117,
+      "percentage": 9.8
+    },
+    {
+      "type": "Part-time",
+      "count": 9696,
+      "percentage": 7.8
+    },
+    {
+      "type": "Temporary",
+      "count": 1190,
+      "percentage": 1.0
+    },
+    {
+      "type": "Internship",
+      "count": 983,
+      "percentage": 0.8
+    },
+    {
+      "type": "Volunteer",
+      "count": 562,
+      "percentage": 0.5
+    }
+  ],
+  "experienceLevelDistribution": [
+    {
+      "level": "Mid-Senior level",
+      "count": 41489,
+      "percentage": 33.5
+    },
+    {
+      "level": "Entry level",
+      "count": 36708,
+      "percentage": 29.6
+    },
+    {
+      "level": "Associate",
+      "count": 9826,
+      "percentage": 7.9
+    },
+    {
+      "level": "Director",
+      "count": 3746,
+      "percentage": 3.0
+    },
+    {
+      "level": "Internship",
+      "count": 1449,
+      "percentage": 1.2
+    },
+    {
+      "level": "Executive",
+      "count": 1222,
+      "percentage": 1.0
+    }
+  ],
+  "topBenefits": [
+    {
+      "benefit": "401(k)",
+      "count": 24231,
+      "percentage": 80.7
+    },
+    {
+      "benefit": "Medical insurance",
+      "count": 9873,
+      "percentage": 32.9
+    },
+    {
+      "benefit": "Vision insurance",
+      "count": 9309,
+      "percentage": 31.0
+    },
+    {
+      "benefit": "Disability insurance",
+      "count": 7930,
+      "percentage": 26.4
+    },
+    {
+      "benefit": "Dental insurance",
+      "count": 6868,
+      "percentage": 22.9
+    },
+    {
+      "benefit": "Tuition assistance",
+      "count": 2614,
+      "percentage": 8.7
+    },
+    {
+      "benefit": "Commuter benefits",
+      "count": 2226,
+      "percentage": 7.4
+    },
+    {
+      "benefit": "Paid maternity leave",
+      "count": 1808,
+      "percentage": 6.0
+    },
+    {
+      "benefit": "Paid paternity leave",
+      "count": 1540,
+      "percentage": 5.1
+    },
+    {
+      "benefit": "Pension plan",
+      "count": 906,
+      "percentage": 3.0
+    },
+    {
+      "benefit": "Student loan assistance",
+      "count": 365,
+      "percentage": 1.2
+    },
+    {
+      "benefit": "Child care support",
+      "count": 273,
+      "percentage": 0.9
+    }
+  ],
+  "companySizeDistribution": [
+    {
+      "tier": "Enterprise (5000+)",
+      "percentage": 38.4,
+      "description": "Global Multinational Corporations"
+    },
+    {
+      "tier": "Large (501-5000)",
+      "percentage": 26.2,
+      "description": "Established Enterprise Organizations"
+    },
+    {
+      "tier": "Medium (51-500)",
+      "percentage": 21.8,
+      "description": "Mid-Market Growth Companies"
+    },
+    {
+      "tier": "Startup / Small (1-50)",
+      "percentage": 13.6,
+      "description": "Emerging Ventures & Agencies"
+    }
+  ],
+  "lastProcessedAt": "2026-09-18T21:05:00Z"
+}

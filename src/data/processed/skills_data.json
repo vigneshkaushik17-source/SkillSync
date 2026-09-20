@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "sk-1",
+    "name": "B2B Sales & Key Account Management",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 98,
+    "supplyScore": 78,
+    "growthRate": 20.0,
+    "jobOpenings": 9197,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Sales Executive",
+      "Sales Manager",
+      "Business Development Executive"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Retail & E-commerce"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-2",
+    "name": "Python & Data Engineering",
+    "category": "AI & Data",
+    "sector": "IT & Tech",
+    "demandScore": 96,
+    "supplyScore": 76,
+    "growthRate": 17.5,
+    "jobOpenings": 5860,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Data Engineer",
+      "Application Lead"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-3",
+    "name": "Project Management & Agile Delivery",
+    "category": "Soft Skills",
+    "sector": "IT & Tech",
+    "demandScore": 96,
+    "supplyScore": 60,
+    "growthRate": 46.6,
+    "jobOpenings": 5553,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Lead",
+      "Project Manager",
+      "Technical Lead - L1"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Mumbai MMR",
+      "Pune"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-4",
+    "name": "Customer Service",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 96,
+    "supplyScore": 68,
+    "growthRate": 45.8,
+    "jobOpenings": 5131,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Trust & Safety New Associate",
+      "Branch:Branch Relationship Officer",
+      "Customer Service Executive"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Mumbai MMR",
+      "Bengaluru Urban",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-5",
+    "name": "SAP ERP & Business Modules",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 96,
+    "supplyScore": 60,
+    "growthRate": 21.6,
+    "jobOpenings": 5056,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Software Development Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Logistics & Supply Chain"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-6",
+    "name": "Management",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 96,
+    "supplyScore": 71,
+    "growthRate": 38.0,
+    "jobOpenings": 4863,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Business Development Manager",
+      "Sales Manager",
+      "Relationship Manager"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-7",
+    "name": "CSS3 & Modern Responsive Layouts",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 95,
+    "supplyScore": 58,
+    "growthRate": 21.7,
+    "jobOpenings": 4195,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Software Development Engineer",
+      "Application Lead"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-8",
+    "name": "Java Enterprise Architecture",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 95,
+    "supplyScore": 69,
+    "growthRate": 15.6,
+    "jobOpenings": 4097,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Java Full Stack Developer",
+      "Application Developer",
+      "Java Developer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Pune",
+      "Hyderabad",
+      "Chennai"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-9",
+    "name": "SQL & Relational Databases",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 95,
+    "supplyScore": 60,
+    "growthRate": 36.5,
+    "jobOpenings": 3993,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Data Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-10",
+    "name": "Business Development & Client Strategy",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 95,
+    "supplyScore": 74,
+    "growthRate": 25.1,
+    "jobOpenings": 3751,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Business Development Executive",
+      "Business Development Manager",
+      "Business Development Associate"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Retail & E-commerce"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-11",
+    "name": "Executive Communication & Stakeholder Management",
+    "category": "Soft Skills",
+    "sector": "IT & Tech",
+    "demandScore": 95,
+    "supplyScore": 75,
+    "growthRate": 17.5,
+    "jobOpenings": 3601,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Sales Executive",
+      "Business Development Executive",
+      "Customer Support Executive"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-12",
+    "name": "Development",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 94,
+    "supplyScore": 79,
+    "growthRate": 17.0,
+    "jobOpenings": 3297,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Business Development Executive",
+      "Business Development Manager",
+      "Java Developer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Pune",
+      "Hyderabad"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 150,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-13",
+    "name": "JavaScript & Web Fundamentals",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 94,
+    "supplyScore": 74,
+    "growthRate": 15.0,
+    "jobOpenings": 3017,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Full Stack Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 140,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-14",
+    "name": "C# & .NET Core Development",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 94,
+    "supplyScore": 69,
+    "growthRate": 15.5,
+    "jobOpenings": 2982,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Software Development Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 139,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-15",
+    "name": "Troubleshooting",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 75,
+    "growthRate": 39.8,
+    "jobOpenings": 2481,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Technical Lead - L1",
+      "Application Developer",
+      "Application Support Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 119,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-16",
+    "name": "Agile Methodologies & Scrum",
+    "category": "Soft Skills",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 68,
+    "growthRate": 45.5,
+    "jobOpenings": 2464,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Software Development Lead"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 118,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-17",
+    "name": "Digital Marketing & Growth Strategy",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 57,
+    "growthRate": 29.1,
+    "jobOpenings": 2447,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Business Development Associate",
+      "Marketing Executive",
+      "Sales Executive"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Retail & E-commerce"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 117,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-18",
+    "name": "Financial Accounting & Tax Compliance",
+    "category": "Domain Specific",
+    "sector": "BFSI",
+    "demandScore": 93,
+    "supplyScore": 56,
+    "growthRate": 26.7,
+    "jobOpenings": 2433,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Accountant",
+      "Account Executive",
+      "Senior Accountant"
+    ],
+    "associatedIndustries": [
+      "BFSI",
+      "Manufacturing & EV",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Mumbai MMR",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 117,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-19",
+    "name": "English",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 67,
+    "growthRate": 25.6,
+    "jobOpenings": 2278,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Sales Executive",
+      "Business Development Executive",
+      "Backend Executive"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Delhi NCR",
+      "Bengaluru Urban",
+      "Hyderabad"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 111,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-20",
+    "name": "Test & Workflow Automation",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 69,
+    "growthRate": 40.4,
+    "jobOpenings": 2276,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Automation Test Engineer",
+      "Automation Engineer",
+      "Senior Software Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Pune",
+      "Hyderabad",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 111,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-21",
+    "name": "Team Management",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 54,
+    "growthRate": 41.9,
+    "jobOpenings": 2272,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Technical Lead - L1",
+      "Application Lead",
+      "Area Sales Manager"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Mumbai MMR",
+      "Hyderabad"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 110,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-22",
+    "name": "Analytical",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 67,
+    "growthRate": 18.1,
+    "jobOpenings": 2170,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Data Analyst",
+      "Business Analyst",
+      "Data Scientist"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Mumbai MMR",
+      "Pune"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 106,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-23",
+    "name": "Oracle",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 71,
+    "growthRate": 32.7,
+    "jobOpenings": 2142,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Lead",
+      "Application Developer",
+      "Technical Lead - L1"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 105,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-24",
+    "name": "Networking",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 60,
+    "growthRate": 26.3,
+    "jobOpenings": 2089,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Branch:Branch Relationship Officer",
+      "Developer - L3",
+      "Application Support Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 103,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-25",
+    "name": "RESTful APIs & Microservices",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 71,
+    "growthRate": 30.2,
+    "jobOpenings": 2061,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Software Development Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 102,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-26",
+    "name": "Operations",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 75,
+    "growthRate": 37.3,
+    "jobOpenings": 2053,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Operations Executive",
+      "Operations Manager",
+      "Relationship Manager"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Logistics & Supply Chain"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 102,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-27",
+    "name": "Software Testing",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 66,
+    "growthRate": 33.2,
+    "jobOpenings": 1992,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Quality Engineer (Tester)",
+      "Developer - L4"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 99,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-28",
+    "name": "C++ Systems Programming",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 55,
+    "growthRate": 29.3,
+    "jobOpenings": 1991,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Lead",
+      "Software Development Engineer",
+      "Software Development Lead"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 99,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-29",
+    "name": "Spring Boot & Java Frameworks",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 67,
+    "growthRate": 30.6,
+    "jobOpenings": 1896,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Java Developer",
+      "Java Full Stack Developer",
+      "Application Developer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Chennai"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 95,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-30",
+    "name": "AWS Cloud Infrastructure",
+    "category": "Cloud & DevOps",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 54,
+    "growthRate": 14.4,
+    "jobOpenings": 1888,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Lead",
+      "Application Developer",
+      "Big Data Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 95,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-31",
+    "name": "Data Analysis",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 65,
+    "growthRate": 40.8,
+    "jobOpenings": 1873,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Data Analyst",
+      "Application Lead",
+      "Business Analyst"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Mumbai MMR",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 94,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-32",
+    "name": "Training",
+    "category": "AI & Data",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 57,
+    "growthRate": 14.1,
+    "jobOpenings": 1848,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Developer - L3",
+      "Training Manager - Agency Training",
+      "Key Account Manager - Federal Bank"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Mumbai MMR",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 93,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-33",
+    "name": "Voice Process",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 70,
+    "growthRate": 30.3,
+    "jobOpenings": 1848,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Customer Support Executive",
+      "Customer Care Executive",
+      "Customer Service Executive"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR",
+      "Chennai"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 93,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-34",
+    "name": "Customer Support",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 68,
+    "growthRate": 13.0,
+    "jobOpenings": 1831,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Customer Support Executive",
+      "Inbound Sales Representative Associate",
+      "Customer Care Executive"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR",
+      "Pune"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 93,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-35",
+    "name": "Lead Generation",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 72,
+    "growthRate": 42.6,
+    "jobOpenings": 1806,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Business Development Executive",
+      "Business Development Manager",
+      "Sales Executive"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Retail & E-commerce"
+    ],
+    "topDistricts": [
+      "Delhi NCR",
+      "Bengaluru Urban",
+      "Pune"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 92,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-36",
+    "name": "Recruitment",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "supplyScore": 56,
+    "growthRate": 24.2,
+    "jobOpenings": 1802,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Us It Lead Recruiter",
+      "Human Resource Recruiter",
+      "Recruiter"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 92,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-37",
+    "name": "BPO",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 56,
+    "growthRate": 34.1,
+    "jobOpenings": 1773,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Customer Support Executive",
+      "Customer Care Executive",
+      "Omni Sport Advisor"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 90,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-38",
+    "name": "Continuous Integration",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 54,
+    "growthRate": 39.3,
+    "jobOpenings": 1750,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Developer - L3"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 90,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-39",
+    "name": "Consulting",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 70,
+    "growthRate": 27.7,
+    "jobOpenings": 1735,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Sap Certified Consultant",
+      "Sap Fico Consultant",
+      "SAP PEO Consultant"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 89,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-40",
+    "name": "HTML5 & Semantic Markup",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 72,
+    "growthRate": 40.0,
+    "jobOpenings": 1604,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Full Stack Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 84,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-41",
+    "name": "Software Development",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 57,
+    "growthRate": 34.0,
+    "jobOpenings": 1583,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Software Development Engineer",
+      "Software Development Lead",
+      "Developer - L3"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 83,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-42",
+    "name": "Application Development",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 59,
+    "growthRate": 38.8,
+    "jobOpenings": 1578,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Software Development Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 83,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-43",
+    "name": "Microservices Architecture",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 71,
+    "growthRate": 32.6,
+    "jobOpenings": 1559,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Java Full Stack Developer",
+      "Java Developer",
+      "Application Developer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 82,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-44",
+    "name": "B2B Sales",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 58,
+    "growthRate": 13.9,
+    "jobOpenings": 1540,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Business Development Executive",
+      "Sales Executive",
+      "Sales Manager"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 81,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-45",
+    "name": "Kubernetes Orchestration",
+    "category": "Cloud & DevOps",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 73,
+    "growthRate": 44.9,
+    "jobOpenings": 1513,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Lead",
+      "Application Developer",
+      "AI / ML Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Pune",
+      "Hyderabad",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 80,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-46",
+    "name": "Web Services",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 75,
+    "growthRate": 14.7,
+    "jobOpenings": 1470,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Technical Lead - L1"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 78,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-47",
+    "name": "ERP",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 59,
+    "growthRate": 46.3,
+    "jobOpenings": 1460,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Techno Functional Consultant - L1",
+      "Techno Functional Consultant - L2",
+      "Accountant"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Logistics & Supply Chain"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Pune",
+      "Hyderabad"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 78,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-48",
+    "name": "Corporate Finance & Risk Analysis",
+    "category": "Technical",
+    "sector": "BFSI",
+    "demandScore": 92,
+    "supplyScore": 64,
+    "growthRate": 20.8,
+    "jobOpenings": 1452,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Financial Analyst",
+      "Finance Manager",
+      "Relationship Manager"
+    ],
+    "associatedIndustries": [
+      "BFSI",
+      "Healthcare",
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Mumbai MMR",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 78,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-49",
+    "name": "React.js & Modern Frontend",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 66,
+    "growthRate": 20.6,
+    "jobOpenings": 1437,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Java Full Stack Developer",
+      "Application Developer",
+      "Fullstack Developer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Manufacturing & EV",
+      "BFSI"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 77,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-50",
+    "name": "Channel Sales",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 77,
+    "growthRate": 34.5,
+    "jobOpenings": 1401,
+    "requiredProficiency": "Advanced",
+    "associatedRoles": [
+      "Sales Officer Home Loan",
+      "Relationship Manager - Banca Channel",
+      "Area Sales Manager"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Retail & E-commerce"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 76,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-51",
+    "name": "Advanced Excel & Financial Modeling",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 92,
+    "supplyScore": 66,
+    "growthRate": 13.1,
+    "jobOpenings": 1313,
+    "requiredProficiency": "Intermediate",
+    "associatedRoles": [
+      "Mis Executive",
+      "Store Keeper",
+      "Accountant"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Logistics & Supply Chain"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 72,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-52",
+    "name": "Field Sales",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 91,
+    "supplyScore": 56,
+    "growthRate": 14.0,
+    "jobOpenings": 1259,
+    "requiredProficiency": "Intermediate",
+    "associatedRoles": [
+      "Field Sales Executive",
+      "Sales Executive",
+      "Relationship Manager"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Chennai"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 70,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-53",
+    "name": "Team Handling",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 91,
+    "supplyScore": 61,
+    "growthRate": 46.0,
+    "jobOpenings": 1251,
+    "requiredProficiency": "Intermediate",
+    "associatedRoles": [
+      "Branch Manager",
+      "Sales Officer Home Loan",
+      "Sales Officer- Home Loan"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "BFSI",
+      "Healthcare"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Delhi NCR",
+      "Mumbai MMR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 70,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-54",
+    "name": "Computer Science",
+    "category": "Technical",
+    "sector": "IT & Tech",
+    "demandScore": 91,
+    "supplyScore": 69,
+    "growthRate": 22.7,
+    "jobOpenings": 1216,
+    "requiredProficiency": "Intermediate",
+    "associatedRoles": [
+      "Senior Software Engineer",
+      "Software Engineer",
+      "Data Engineer"
+    ],
+    "associatedIndustries": [
+      "IT & Tech",
+      "Healthcare",
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Hyderabad",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 68,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  },
+  {
+    "id": "sk-55",
+    "name": "Autocad",
+    "category": "Technical",
+    "sector": "Manufacturing & EV",
+    "demandScore": 91,
+    "supplyScore": 64,
+    "growthRate": 23.2,
+    "jobOpenings": 1194,
+    "requiredProficiency": "Intermediate",
+    "associatedRoles": [
+      "Interior Designer",
+      "Design Engineer",
+      "Architect"
+    ],
+    "associatedIndustries": [
+      "Manufacturing & EV"
+    ],
+    "topDistricts": [
+      "Bengaluru Urban",
+      "Pune",
+      "Delhi NCR"
+    ],
+    "signals": {
+      "jobPostingsWeight": 45,
+      "employerSurveysWeight": 25,
+      "consultationsWeight": 15,
+      "sectorGrowthWeight": 10,
+      "emergingTechWeight": 5
+    },
+    "validatedByEmployersCount": 67,
+    "lastUpdated": "2025-Q1 Dataset Analysis"
+  }
+]

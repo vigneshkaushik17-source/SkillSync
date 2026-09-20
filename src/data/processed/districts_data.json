@@ -1,0 +1,508 @@
+[
+  {
+    "id": "dst-1",
+    "name": "Bengaluru Urban",
+    "state": "Karnataka",
+    "sector": "IT & Tech",
+    "demandScore": 93,
+    "talentSupplyScore": 72,
+    "skillGapScore": 21,
+    "activeJobDemand": 26019,
+    "unemployedTrainedYouth": 9887,
+    "trainingCapacity": 11708,
+    "placementRate": 68,
+    "trainersRequired": 374,
+    "trainersAvailable": 269,
+    "labsRequired": 136,
+    "labsAvailable": 102,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Software Development Engineer"
+    ],
+    "prioritySkills": [
+      "Python & Data Engineering",
+      "SAP ERP & Business Modules",
+      "Project Management & Agile Delivery"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 17,
+      "trainersToRecruit": 105,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Bengaluru Urban",
+        "Establish IT & Tech Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "Accenture",
+        "Infosys",
+        "Krazy Mantra HR Solutions Pvt. Ltd",
+        "Vision Beyond Resources India Private Limited"
+      ]
+    }
+  },
+  {
+    "id": "dst-2",
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "sector": "IT & Tech",
+    "demandScore": 82,
+    "talentSupplyScore": 63,
+    "skillGapScore": 19,
+    "activeJobDemand": 10274,
+    "unemployedTrainedYouth": 3904,
+    "trainingCapacity": 4623,
+    "placementRate": 75,
+    "trainersRequired": 198,
+    "trainersAvailable": 142,
+    "labsRequired": 72,
+    "labsAvailable": 54,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Software Development Engineer"
+    ],
+    "prioritySkills": [
+      "Python & Data Engineering",
+      "Project Management & Agile Delivery",
+      "SAP ERP & Business Modules"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 9,
+      "trainersToRecruit": 56,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Hyderabad",
+        "Establish IT & Tech Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "IDESLABS PRIVATE LIMITED",
+        "Accenture",
+        "Wipro",
+        "Talent21"
+      ]
+    }
+  },
+  {
+    "id": "dst-3",
+    "name": "Pune",
+    "state": "Maharashtra",
+    "sector": "Manufacturing & EV",
+    "demandScore": 81,
+    "talentSupplyScore": 55,
+    "skillGapScore": 26,
+    "activeJobDemand": 9731,
+    "unemployedTrainedYouth": 3697,
+    "trainingCapacity": 4378,
+    "placementRate": 85,
+    "trainersRequired": 176,
+    "trainersAvailable": 126,
+    "labsRequired": 64,
+    "labsAvailable": 48,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Application Developer",
+      "Application Lead",
+      "Business Development Executive"
+    ],
+    "prioritySkills": [
+      "Python & Data Engineering",
+      "B2B Sales & Key Account Management",
+      "Project Management & Agile Delivery"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 8,
+      "trainersToRecruit": 50,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Pune",
+        "Establish Manufacturing & EV Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "Accenture",
+        "HR Innovation Group",
+        "Wipro",
+        "Tata Capital"
+      ]
+    }
+  },
+  {
+    "id": "dst-4",
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "sector": "Healthcare",
+    "demandScore": 79,
+    "talentSupplyScore": 54,
+    "skillGapScore": 25,
+    "activeJobDemand": 6433,
+    "unemployedTrainedYouth": 2444,
+    "trainingCapacity": 2894,
+    "placementRate": 78,
+    "trainersRequired": 154,
+    "trainersAvailable": 110,
+    "labsRequired": 56,
+    "labsAvailable": 42,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Application Developer",
+      "Sales Executive",
+      "Application Lead"
+    ],
+    "prioritySkills": [
+      "B2B Sales & Key Account Management",
+      "Python & Data Engineering",
+      "Management"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 7,
+      "trainersToRecruit": 44,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Chennai",
+        "Establish Healthcare Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "Accenture",
+        "Access Healthcare",
+        "Incedo",
+        "IDESLABS PRIVATE LIMITED"
+      ]
+    }
+  },
+  {
+    "id": "dst-5",
+    "name": "Delhi NCR",
+    "state": "Uttar Pradesh / Delhi",
+    "sector": "IT & Tech",
+    "demandScore": 82,
+    "talentSupplyScore": 54,
+    "skillGapScore": 28,
+    "activeJobDemand": 11323,
+    "unemployedTrainedYouth": 4302,
+    "trainingCapacity": 5095,
+    "placementRate": 75,
+    "trainersRequired": 198,
+    "trainersAvailable": 142,
+    "labsRequired": 72,
+    "labsAvailable": 54,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Sales Executive",
+      "Business Development Executive",
+      "Application Developer"
+    ],
+    "prioritySkills": [
+      "B2B Sales & Key Account Management",
+      "Customer Service",
+      "Executive Communication & Stakeholder Management"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 9,
+      "trainersToRecruit": 56,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Delhi NCR",
+        "Establish IT & Tech Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "Accenture",
+        "PRO Hr Complete Solutions",
+        "Incedo",
+        "Iris Software"
+      ]
+    }
+  },
+  {
+    "id": "dst-6",
+    "name": "Mumbai MMR",
+    "state": "Maharashtra",
+    "sector": "BFSI",
+    "demandScore": 81,
+    "talentSupplyScore": 59,
+    "skillGapScore": 22,
+    "activeJobDemand": 9599,
+    "unemployedTrainedYouth": 3647,
+    "trainingCapacity": 4319,
+    "placementRate": 84,
+    "trainersRequired": 176,
+    "trainersAvailable": 126,
+    "labsRequired": 64,
+    "labsAvailable": 48,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Trust & Safety New Associate",
+      "Application Developer",
+      "Application Lead"
+    ],
+    "prioritySkills": [
+      "Customer Service",
+      "B2B Sales & Key Account Management",
+      "Project Management & Agile Delivery"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 8,
+      "trainersToRecruit": 50,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Mumbai MMR",
+        "Establish BFSI Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "Accenture",
+        "Gratitude India Manpower Consultants Pvt. Ltd.",
+        "Kotak Mahindra Bank",
+        "Wipro"
+      ]
+    }
+  },
+  {
+    "id": "dst-7",
+    "name": "Ahmedabad",
+    "state": "Gujarat",
+    "sector": "Manufacturing & EV",
+    "demandScore": 76,
+    "talentSupplyScore": 54,
+    "skillGapScore": 22,
+    "activeJobDemand": 2598,
+    "unemployedTrainedYouth": 987,
+    "trainingCapacity": 1169,
+    "placementRate": 84,
+    "trainersRequired": 110,
+    "trainersAvailable": 79,
+    "labsRequired": 40,
+    "labsAvailable": 30,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Sales Executive",
+      "Business Development Executive",
+      "Account Executive"
+    ],
+    "prioritySkills": [
+      "B2B Sales & Key Account Management",
+      "Management",
+      "Executive Communication & Stakeholder Management"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 5,
+      "trainersToRecruit": 31,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Ahmedabad",
+        "Establish Manufacturing & EV Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "PRO Hr Complete Solutions",
+        "Manektech",
+        "Vijay Mamra",
+        "Accenture"
+      ]
+    }
+  },
+  {
+    "id": "dst-8",
+    "name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "sector": "Manufacturing & EV",
+    "demandScore": 75,
+    "talentSupplyScore": 52,
+    "skillGapScore": 23,
+    "activeJobDemand": 841,
+    "unemployedTrainedYouth": 319,
+    "trainingCapacity": 378,
+    "placementRate": 76,
+    "trainersRequired": 88,
+    "trainersAvailable": 63,
+    "labsRequired": 32,
+    "labsAvailable": 24,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Application Lead",
+      "Application Developer",
+      "Business Development Executive"
+    ],
+    "prioritySkills": [
+      "B2B Sales & Key Account Management",
+      "SAP ERP & Business Modules",
+      "Management"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 4,
+      "trainersToRecruit": 25,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Coimbatore",
+        "Establish Manufacturing & EV Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "Accenture",
+        "PRO Hr Complete Solutions",
+        "EY",
+        "Shraddha Corporate Services"
+      ]
+    }
+  },
+  {
+    "id": "dst-9",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "sector": "Agriculture & AgriTech",
+    "demandScore": 75,
+    "talentSupplyScore": 57,
+    "skillGapScore": 18,
+    "activeJobDemand": 1088,
+    "unemployedTrainedYouth": 413,
+    "trainingCapacity": 489,
+    "placementRate": 77,
+    "trainersRequired": 88,
+    "trainersAvailable": 63,
+    "labsRequired": 32,
+    "labsAvailable": 24,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Record To Report Ops Associate",
+      "Procure To Pay Operations Associate",
+      "Sales Executive"
+    ],
+    "prioritySkills": [
+      "B2B Sales & Key Account Management",
+      "Accounts Payable",
+      "Record To Report"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 4,
+      "trainersToRecruit": 25,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Jaipur",
+        "Establish Agriculture & AgriTech Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "Accenture",
+        "PRO Hr Complete Solutions",
+        "Naukri Hospitality Jobs",
+        "IndiaMART"
+      ]
+    }
+  },
+  {
+    "id": "dst-10",
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "sector": "BFSI",
+    "demandScore": 76,
+    "talentSupplyScore": 51,
+    "skillGapScore": 25,
+    "activeJobDemand": 1486,
+    "unemployedTrainedYouth": 564,
+    "trainingCapacity": 668,
+    "placementRate": 72,
+    "trainersRequired": 88,
+    "trainersAvailable": 63,
+    "labsRequired": 32,
+    "labsAvailable": 24,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Application Developer",
+      "Application Support Engineer",
+      "Application Lead"
+    ],
+    "prioritySkills": [
+      "B2B Sales & Key Account Management",
+      "Customer Service",
+      "Management"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 4,
+      "trainersToRecruit": 25,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Kolkata",
+        "Establish BFSI Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "Accenture",
+        "PRO Hr Complete Solutions",
+        "IBM",
+        "EY"
+      ]
+    }
+  },
+  {
+    "id": "dst-11",
+    "name": "Kochi",
+    "state": "Kerala",
+    "sector": "Healthcare",
+    "demandScore": 75,
+    "talentSupplyScore": 46,
+    "skillGapScore": 29,
+    "activeJobDemand": 938,
+    "unemployedTrainedYouth": 356,
+    "trainingCapacity": 422,
+    "placementRate": 79,
+    "trainersRequired": 88,
+    "trainersAvailable": 63,
+    "labsRequired": 32,
+    "labsAvailable": 24,
+    "equipmentShortageItems": [
+      "Advanced GPU Workstations",
+      "Cloud Sandbox Subscriptions",
+      "Diagnostic Test Benches"
+    ],
+    "highDemandRoles": [
+      "Sales Executive",
+      "Business Development Executive",
+      "Accountant"
+    ],
+    "prioritySkills": [
+      "B2B Sales & Key Account Management",
+      "Executive Communication & Stakeholder Management",
+      "English"
+    ],
+    "recommendedPlan": {
+      "batchesToAdd": 4,
+      "trainersToRecruit": 25,
+      "equipmentPrescriptions": [
+        "Provision 200+ Cloud Sandbox / Lab Licenses in Kochi",
+        "Establish Healthcare Center of Excellence at District Skill Hub"
+      ],
+      "partnerIndustries": [
+        "PRO Hr Complete Solutions",
+        "EY",
+        "IBM",
+        "Htic Global"
+      ]
+    }
+  }
+]

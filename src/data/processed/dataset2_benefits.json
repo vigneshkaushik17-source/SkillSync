@@ -1,0 +1,62 @@
+[
+  {
+    "benefit": "401(k)",
+    "count": 24231,
+    "percentage": 80.7
+  },
+  {
+    "benefit": "Medical insurance",
+    "count": 9873,
+    "percentage": 32.9
+  },
+  {
+    "benefit": "Vision insurance",
+    "count": 9309,
+    "percentage": 31.0
+  },
+  {
+    "benefit": "Disability insurance",
+    "count": 7930,
+    "percentage": 26.4
+  },
+  {
+    "benefit": "Dental insurance",
+    "count": 6868,
+    "percentage": 22.9
+  },
+  {
+    "benefit": "Tuition assistance",
+    "count": 2614,
+    "percentage": 8.7
+  },
+  {
+    "benefit": "Commuter benefits",
+    "count": 2226,
+    "percentage": 7.4
+  },
+  {
+    "benefit": "Paid maternity leave",
+    "count": 1808,
+    "percentage": 6.0
+  },
+  {
+    "benefit": "Paid paternity leave",
+    "count": 1540,
+    "percentage": 5.1
+  },
+  {
+    "benefit": "Pension plan",
+    "count": 906,
+    "percentage": 3.0
+  },
+  {
+    "benefit": "Student loan assistance",
+    "count": 365,
+    "percentage": 1.2
+  },
+  {
+    "benefit": "Child care support",
+    "count": 273,
+    "percentage": 0.9
+  }
+]

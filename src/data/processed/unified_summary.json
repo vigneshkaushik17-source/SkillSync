@@ -1,0 +1,143 @@
+{
+  "datasetName": "SkillSync Unified Multi-Source Intelligence (Dataset 1 India + Dataset 2 Global)",
+  "totalJobOpenings": 221778,
+  "totalUniqueCompanies": 43141,
+  "disclosedSalariesCount": 68570,
+  "dataSources": [
+    {
+      "id": "dataset_1_india",
+      "name": "Indian Job Market Dataset 2025",
+      "postingsCount": 97929,
+      "companiesCount": 18668,
+      "primaryCurrency": "INR (\u20b9)",
+      "avgSalary": "\u20b97.6 LPA",
+      "coverage": "Pan-India Metros & State Skill Districts"
+    },
+    {
+      "id": "dataset_2_linkedin",
+      "name": "Global Enterprise & LinkedIn Postings Dataset",
+      "postingsCount": 123849,
+      "companiesCount": 24473,
+      "primaryCurrency": "USD ($)",
+      "avgSalary": "$95.7k / yr",
+      "coverage": "Global & North America Enterprise Talent Hubs"
+    }
+  ],
+  "workTypeDistribution": [
+    {
+      "type": "Full-time",
+      "count": 98814,
+      "percentage": 79.8
+    },
+    {
+      "type": "Contract",
+      "count": 12117,
+      "percentage": 9.8
+    },
+    {
+      "type": "Part-time",
+      "count": 9696,
+      "percentage": 7.8
+    },
+    {
+      "type": "Temporary",
+      "count": 1190,
+      "percentage": 1.0
+    },
+    {
+      "type": "Internship",
+      "count": 983,
+      "percentage": 0.8
+    },
+    {
+      "type": "Volunteer",
+      "count": 562,
+      "percentage": 0.5
+    }
+  ],
+  "topBenefits": [
+    {
+      "benefit": "401(k)",
+      "count": 24231,
+      "percentage": 80.7
+    },
+    {
+      "benefit": "Medical insurance",
+      "count": 9873,
+      "percentage": 32.9
+    },
+    {
+      "benefit": "Vision insurance",
+      "count": 9309,
+      "percentage": 31.0
+    },
+    {
+      "benefit": "Disability insurance",
+      "count": 7930,
+      "percentage": 26.4
+    },
+    {
+      "benefit": "Dental insurance",
+      "count": 6868,
+      "percentage": 22.9
+    },
+    {
+      "benefit": "Tuition assistance",
+      "count": 2614,
+      "percentage": 8.7
+    },
+    {
+      "benefit": "Commuter benefits",
+      "count": 2226,
+      "percentage": 7.4
+    },
+    {
+      "benefit": "Paid maternity leave",
+      "count": 1808,
+      "percentage": 6.0
+    },
+    {
+      "benefit": "Paid paternity leave",
+      "count": 1540,
+      "percentage": 5.1
+    },
+    {
+      "benefit": "Pension plan",
+      "count": 906,
+      "percentage": 3.0
+    },
+    {
+      "benefit": "Student loan assistance",
+      "count": 365,
+      "percentage": 1.2
+    },
+    {
+      "benefit": "Child care support",
+      "count": 273,
+      "percentage": 0.9
+    }
+  ],
+  "companySizeDistribution": [
+    {
+      "tier": "Enterprise (5000+)",
+      "percentage": 38.4,
+      "description": "Global Multinational Corporations"
+    },
+    {
+      "tier": "Large (501-5000)",
+      "percentage": 26.2,
+      "description": "Established Enterprise Organizations"
+    },
+    {
+      "tier": "Medium (51-500)",
+      "percentage": 21.8,
+      "description": "Mid-Market Growth Companies"
+    },
+    {
+      "tier": "Startup / Small (1-50)",
+      "percentage": 13.6,
+      "description": "Emerging Ventures & Agencies"
+    }
+  ],
+  "lastProcessedAt": "2026-09-18T21:05:00Z"
+}
