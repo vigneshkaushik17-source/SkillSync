@@ -34,12 +34,15 @@ const MainContent: React.FC = () => {
     }
   }, [activeTab, isAdmin, setActiveTab, addToast]);
 
-  // Redirect sign-in to Market Overview
+  // Redirect to Home "/" (market-overview) after successful sign in
   useEffect(() => {
-    if (activeTab === 'sign-in') {
+    if (isAuthenticated && activeTab === 'sign-in') {
       setActiveTab('market-overview');
+      if (user) {
+        addToast('success', `Welcome, ${user.full_name}!`, 'Authenticated with Google via Supabase.');
+      }
     }
-  }, [activeTab, setActiveTab]);
+  }, [isAuthenticated, activeTab, setActiveTab, user, addToast]);
 
   // Sync Google user credentials with Candidate profile when logged in
   useEffect(() => {
@@ -84,6 +87,7 @@ const MainContent: React.FC = () => {
       case 'settings':
         return isAdmin ? <SettingsView /> : <MarketOverviewView />;
       case 'sign-in':
+        return <SignInView />;
       default:
         return <MarketOverviewView />;
     }
