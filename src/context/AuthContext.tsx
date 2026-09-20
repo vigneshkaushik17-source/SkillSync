@@ -32,6 +32,8 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
+export const SUPER_ADMIN_EMAIL = 'vigneshkaushik17@gmail.com';
+
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [session, setSession] = useState<Session | null>(null);
@@ -44,19 +46,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const extractUserInfo = useCallback((sbUser: SupabaseUser | null | undefined): AuthUser | null => {
     if (!sbUser) return null;
     const meta = sbUser.user_metadata || {};
-    const appMeta = sbUser.app_metadata || {};
     const email = sbUser.email || '';
     const fullName = meta.full_name || meta.name || (email ? email.split('@')[0] : 'Authenticated User');
     const avatarUrl = meta.avatar_url || meta.picture || '';
 
-    // Determine actual role from Supabase metadata or stored preference
-    let role: UserRole = 'candidate';
-    const isExplicitAdmin = 
-      appMeta.role === 'admin' || 
-      meta.role === 'admin' || 
-      email.toLowerCase().endsWith('@skillsync.gov.in') ||
-      email.toLowerCase().includes('admin');
+    // Admin access is strictly granted ONLY to vigneshkaushik17@gmail.com
+    const emailNormalized = email.toLowerCase().trim();
+    const isExplicitAdmin = emailNormalized === SUPER_ADMIN_EMAIL.toLowerCase();
 
+    let role: UserRole = 'policymaker';
     if (isExplicitAdmin) {
       const preferredAdminRole = localStorage.getItem('sia_admin_view_role') as UserRole;
       role = preferredAdminRole || 'admin';
@@ -71,7 +69,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       }
     }
 
-    const isAdmin = isExplicitAdmin || role === 'admin';
+    const isAdmin = isExplicitAdmin;
 
     return {
       id: sbUser.id,
@@ -155,9 +153,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const setRole = (newRole: UserRole): boolean => {
     // Prevent non-admin users from escalating to admin
     if (newRole === 'admin') {
-      const isEligibleAdmin = user?.isAdmin || user?.rawUser?.app_metadata?.role === 'admin' || user?.rawUser?.user_metadata?.role === 'admin';
+      const isEligibleAdmin = user?.email?.toLowerCase().trim() === SUPER_ADMIN_EMAIL.toLowerCase();
       if (!isEligibleAdmin) {
-        console.warn('Unauthorized attempt to elevate role to admin.');
+        console.warn(`Unauthorized attempt to elevate role to admin. Restricted to ${SUPER_ADMIN_EMAIL}.`);
         return false;
       }
     }

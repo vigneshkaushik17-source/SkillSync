@@ -22,8 +22,17 @@ import { SettingsView } from './views/SettingsView';
 import { SignInView } from './views/SignInView';
 
 const MainContent: React.FC = () => {
-  const { activeTab, setActiveTab, candidateProfile, updateCandidateProfile } = useApp();
-  const { user, isAuthenticated } = useAuth();
+  const { activeTab, setActiveTab, candidateProfile, updateCandidateProfile, addToast } = useApp();
+  const { user, isAuthenticated, isAdmin } = useAuth();
+
+  // Route Protection: Prevent non-admin users from accessing admin routes
+  useEffect(() => {
+    const adminRoutes = ['admin-console', 'data-sources', 'settings'];
+    if (adminRoutes.includes(activeTab) && !isAdmin) {
+      setActiveTab('market-overview');
+      addToast('warning', 'Access Restricted', 'Administrator authorization (vigneshkaushik17@gmail.com) required to access system and data architecture console.');
+    }
+  }, [activeTab, isAdmin, setActiveTab, addToast]);
 
   // Redirect sign-in to Market Overview
   useEffect(() => {
@@ -69,11 +78,11 @@ const MainContent: React.FC = () => {
       case 'candidate-profile':
         return <CandidateProfileView />;
       case 'admin-console':
-        return <AdminConsoleView />;
+        return isAdmin ? <AdminConsoleView /> : <MarketOverviewView />;
       case 'data-sources':
-        return <DataSourcesView />;
+        return isAdmin ? <DataSourcesView /> : <MarketOverviewView />;
       case 'settings':
-        return <SettingsView />;
+        return isAdmin ? <SettingsView /> : <MarketOverviewView />;
       case 'sign-in':
       default:
         return <MarketOverviewView />;

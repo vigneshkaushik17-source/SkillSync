@@ -73,20 +73,24 @@ export const Header: React.FC = () => {
     }
   };
 
-  const allowedPersonas: UserPersona[] = [
-    'Policy Maker',
-    'Administrator',
-    'Institution / Education Provider',
-    'Candidate'
-  ];
+  // Only the authorized admin email (vigneshkaushik17@gmail.com) can see/select Administrator
+  const allowedPersonas: UserPersona[] = isAdmin
+    ? ['Administrator', 'Policy Maker', 'Institution / Education Provider', 'Candidate']
+    : ['Policy Maker', 'Institution / Education Provider', 'Candidate'];
 
-  const currentDisplayPersona: UserPersona = persona;
+  const currentDisplayPersona: UserPersona = isAdmin && currentRole === 'admin'
+    ? 'Administrator'
+    : roleToPersona(currentRole);
 
   const handleRoleChange = (selected: UserPersona) => {
     const targetRole = personaToRole(selected);
-    setRole(targetRole);
-    setPersona(selected);
-    addToast('info', 'Active Perspective Switched', `Dashboard adjusted for: ${selected}`);
+    const success = setRole(targetRole);
+    if (success) {
+      setPersona(selected);
+      addToast('info', 'Active Perspective Switched', `Dashboard adjusted for: ${selected}`);
+    } else {
+      addToast('warning', 'Permission Required', 'Administrator role is restricted exclusively to vigneshkaushik17@gmail.com.');
+    }
   };
 
   const handleExportSummary = () => {
