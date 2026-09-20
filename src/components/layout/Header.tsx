@@ -18,10 +18,15 @@ import {
   LogOut,
   ChevronDown,
   ShieldCheck,
-  SlidersHorizontal
+  SlidersHorizontal,
+  Menu
 } from 'lucide-react';
 
-export const Header: React.FC = () => {
+interface HeaderProps {
+  onToggleMobileMenu?: () => void;
+}
+
+export const Header: React.FC<HeaderProps> = ({ onToggleMobileMenu }) => {
   const { 
     persona, 
     setPersona, 
@@ -132,31 +137,45 @@ export const Header: React.FC = () => {
   return (
     <>
       <header className="sticky top-0 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors">
-        <div className="px-4 sm:px-6 py-2.5 flex items-center justify-between">
-          {/* Left Title */}
-          <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveTab('market-overview')}>
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-500 flex items-center justify-center text-white shadow-md shadow-brand-500/20">
-              <Layers className="w-5 h-5" />
-            </div>
-            <div>
-              <div className="flex items-center space-x-2">
-                <h1 className="text-base font-extrabold text-slate-900 dark:text-white tracking-tight">
-                  SkillSync
-                </h1>
-                {isAdmin && (
-                  <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-indigo-50 text-indigo-700 dark:bg-indigo-950/80 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">
-                    Admin
-                  </span>
-                )}
+        <div className="px-3 sm:px-6 py-2.5 flex items-center justify-between gap-2">
+          {/* Left Title & Mobile Hamburger Button */}
+          <div className="flex items-center space-x-2 sm:space-x-3">
+            {/* Mobile Hamburger Toggle Button */}
+            <button
+              onClick={onToggleMobileMenu}
+              className="p-1.5 -ml-1 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 lg:hidden transition"
+              aria-label="Open Navigation Menu"
+            >
+              <Menu className="w-5 h-5" />
+            </button>
+
+            <div 
+              className="flex items-center space-x-2.5 sm:space-x-3 cursor-pointer" 
+              onClick={() => setActiveTab('market-overview')}
+            >
+              <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-500 flex items-center justify-center text-white shadow-md shadow-brand-500/20 flex-shrink-0">
+                <Layers className="w-4 h-4 sm:w-5 sm:h-5" />
               </div>
-              <p className="text-[11px] text-slate-500 dark:text-slate-400 hidden sm:block">
-                Labour Market & Skill Intelligence Platform
-              </p>
+              <div>
+                <div className="flex items-center space-x-1.5 sm:space-x-2">
+                  <h1 className="text-sm sm:text-base font-extrabold text-slate-900 dark:text-white tracking-tight">
+                    SkillSync
+                  </h1>
+                  {isAdmin && (
+                    <span className="inline-flex items-center px-1.5 py-0.2 sm:px-2 sm:py-0.5 rounded-full text-[9px] sm:text-[10px] font-bold bg-indigo-50 text-indigo-700 dark:bg-indigo-950/80 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">
+                      Admin
+                    </span>
+                  )}
+                </div>
+                <p className="text-[11px] text-slate-500 dark:text-slate-400 hidden md:block">
+                  Labour Market & Skill Intelligence Platform
+                </p>
+              </div>
             </div>
           </div>
 
           {/* Right Controls */}
-          <div className="flex items-center space-x-2 sm:space-x-3">
+          <div className="flex items-center space-x-1 sm:space-x-2.5">
             {/* Supabase Status: Admins ONLY */}
             {isAdmin && (
               <button

@@ -24,6 +24,7 @@ import { SignInView } from './views/SignInView';
 const MainContent: React.FC = () => {
   const { activeTab, setActiveTab, candidateProfile, updateCandidateProfile, addToast } = useApp();
   const { user, isAuthenticated, isAdmin } = useAuth();
+  const [isMobileSidebarOpen, setIsMobileSidebarOpen] = React.useState(false);
 
   // Route Protection: Prevent non-admin users from accessing admin routes
   useEffect(() => {
@@ -95,17 +96,22 @@ const MainContent: React.FC = () => {
 
   return (
     <div className="flex h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 overflow-hidden font-sans">
-      {/* Persistent Left Sidebar */}
-      <Sidebar />
+      {/* Dynamic Responsive Sidebar */}
+      <Sidebar 
+        isMobileOpen={isMobileSidebarOpen} 
+        onClose={() => setIsMobileSidebarOpen(false)} 
+      />
 
       {/* Main Content Area */}
       <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
-        {/* Global Header */}
-        <Header />
+        {/* Global Responsive Header */}
+        <Header 
+          onToggleMobileMenu={() => setIsMobileSidebarOpen(prev => !prev)} 
+        />
 
         {/* Scrollable Page Body */}
-        <main className="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8">
-          <div className="max-w-7xl mx-auto">
+        <main className="flex-1 overflow-y-auto p-3 sm:p-5 lg:p-7">
+          <div className="max-w-7xl mx-auto w-full">
             {/* Global Reactive Filter Bar across views except admin, settings, data sources, and sign-in */}
             {activeTab !== 'settings' && 
              activeTab !== 'data-sources' && 

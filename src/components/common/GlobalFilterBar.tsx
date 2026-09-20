@@ -71,17 +71,17 @@ export const GlobalFilterBar: React.FC = () => {
       </div>
 
       {/* Main Filter Controls */}
-      <div className="flex flex-wrap items-center justify-between gap-3">
+      <div className="flex flex-wrap items-center justify-between gap-2.5 sm:gap-3">
         {/* Left Filter Controls */}
-        <div className="flex flex-wrap items-center gap-3 flex-1 min-w-[300px]">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-3 flex-1 min-w-0 w-full lg:w-auto">
           {/* Sector Selector */}
-          <div className="flex items-center space-x-2 bg-slate-50 dark:bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700">
-            <Filter className="w-4 h-4 text-brand-500 flex-shrink-0" />
+          <div className="flex items-center space-x-2 bg-slate-50 dark:bg-slate-800/80 px-2.5 sm:px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 flex-1 sm:flex-initial min-w-[130px]">
+            <Filter className="w-3.5 h-3.5 text-brand-500 flex-shrink-0" />
             <select
               aria-label="Filter by Sector"
               value={filters.sector}
               onChange={(e) => setFilters(prev => ({ ...prev, sector: e.target.value as SectorType }))}
-              className="bg-transparent text-xs font-semibold text-slate-700 dark:text-slate-200 focus:outline-none cursor-pointer pr-2"
+              className="bg-transparent text-xs font-semibold text-slate-700 dark:text-slate-200 focus:outline-none cursor-pointer pr-1 w-full"
             >
               {SECTORS.map((sec) => (
                 <option key={sec} value={sec} className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100">
@@ -92,13 +92,13 @@ export const GlobalFilterBar: React.FC = () => {
           </div>
 
           {/* District Selector */}
-          <div className="flex items-center space-x-2 bg-slate-50 dark:bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700">
-            <MapPin className="w-4 h-4 text-rose-500 flex-shrink-0" />
+          <div className="flex items-center space-x-2 bg-slate-50 dark:bg-slate-800/80 px-2.5 sm:px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 flex-1 sm:flex-initial min-w-[130px]">
+            <MapPin className="w-3.5 h-3.5 text-rose-500 flex-shrink-0" />
             <select
               aria-label="Filter by District or State"
               value={filters.stateDistrict}
               onChange={(e) => setFilters(prev => ({ ...prev, stateDistrict: e.target.value }))}
-              className="bg-transparent text-xs font-semibold text-slate-700 dark:text-slate-200 focus:outline-none cursor-pointer pr-2"
+              className="bg-transparent text-xs font-semibold text-slate-700 dark:text-slate-200 focus:outline-none cursor-pointer pr-1 w-full"
             >
               {DISTRICTS.map((dst) => (
                 <option key={dst} value={dst} className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100">
@@ -109,13 +109,13 @@ export const GlobalFilterBar: React.FC = () => {
           </div>
 
           {/* Timeframe Selector */}
-          <div className="flex items-center space-x-2 bg-slate-50 dark:bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700">
-            <Calendar className="w-4 h-4 text-amber-500 flex-shrink-0" />
+          <div className="flex items-center space-x-2 bg-slate-50 dark:bg-slate-800/80 px-2.5 sm:px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 flex-1 sm:flex-initial min-w-[130px]">
+            <Calendar className="w-3.5 h-3.5 text-amber-500 flex-shrink-0" />
             <select
               aria-label="Filter by Time Period"
               value={filters.timeframe}
               onChange={(e) => setFilters(prev => ({ ...prev, timeframe: e.target.value as any }))}
-              className="bg-transparent text-xs font-semibold text-slate-700 dark:text-slate-200 focus:outline-none cursor-pointer pr-2"
+              className="bg-transparent text-xs font-semibold text-slate-700 dark:text-slate-200 focus:outline-none cursor-pointer pr-1 w-full"
             >
               <option value="Current Quarter" className="bg-white dark:bg-slate-900">Current Q3/Q4 2026</option>
               <option value="Past 12 Months" className="bg-white dark:bg-slate-900">Past 12 Months (Trailing)</option>
@@ -125,7 +125,7 @@ export const GlobalFilterBar: React.FC = () => {
         </div>
 
         {/* Right Search Input & Reset Button */}
-        <div className="flex items-center space-x-2 w-full sm:w-auto">
+        <div className="flex items-center space-x-2 w-full lg:w-auto">
           <div className="relative flex-1 sm:w-64">
             <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
             <input
